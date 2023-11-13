@@ -1,7 +1,5 @@
 # SITUAÇÃO DA EMPRESA
 
-=======================================================
-
 # Negócio (Original)
 
 - 5 Lojas regionais
@@ -16,7 +14,8 @@
 - Melhorar Segurança da Informação da sede corporativa
 
 =======================================================
-Equipe Executiva
+
+# Equipe Executiva
 
 - Pedrinho supervisiona a sede e as lojas (CEO)
 - Os gerentes das lojas reportam ao COO que reporta ao Pedrinho
@@ -35,8 +34,9 @@ Equipe Executiva
 
 - O ambiente é climatizado independentemente e conta com um UPS próprio de 9000VA que também alimenta meia dúzia de sistemas de escritório e switches ao redor do andar em caso de falta de energia.
 
-- Aplicações de servidor: todos os servidores são servidores montados em rack Dell PowerEdge R6xx.
+- Aplicações de servidor: todos os servidores são servidores montados em rack Dell PowerEdge R6xx
 
+..
 ![Racks](image-1.png)
 
 =======================================================
@@ -57,34 +57,53 @@ Semanais para um servidor baseado em nuvem
 
 # Aplicações
 
-O Software de Contabilidade (TAS):
-• Livro-razão (TAS-GL).
-• Contas a Pagar (TAS-AP).
-• Contas a Receber (TAS-AR).
-• Folha de Pagamento (Distribuições de Funcionários) (TAS-Pay).
-• Bancário (TAS-Bank).
-• Ativos Fixos (TAS-FA).
+- O Software de Contabilidade (TAS):
 
-O Software de Distribuição (TDS):
-• Inventário (TDA-Inv).
-• Lista de Materiais/Kitting (TDA-BoM).
-• Ordem de Compra (TDA-PO).
-• Ordem de Venda (TDA-SO).
-• Gestão de Armazém (TDA-WM).
-• Planejamento de Requisitos (TDA-RP).
+  • Livro-razão (TAS-GL).
 
-O Software ERP (TERP):
-• Portais Web (site de Ecommerce) (TERP-Web).
-• Gestão de Relacionamento com o Cliente (TERP-CRM).
+  • Contas a Pagar (TAS-AP).
 
-O Sistema de Informações de Recursos Humanos (HRIS) :
-• Gestão de Folha de Pagamento (exporta para Traverse para processamento de folha de pagamento) (Opt-PM).
-• Recursos Humanos (Opt-HR).
-• Tempo & Presença (exporta para Traverse para processamento de folha de pagamento) (Opt-Time).
+  • Contas a Receber (TAS-AR).
 
-NAS:
-• Software de Backup e Recuperação (BARS).
-• Software de Criptografia Enigmeh AES 256 para Controle de Acesso (Enig-AES).
+  • Folha de Pagamento (Distribuições de Funcionários) (TAS-Pay).
+
+  • Bancário (TAS-Bank).
+
+  • Ativos Fixos (TAS-FA).
+
+- O Software de Distribuição (TDS):
+
+  • Inventário (TDA-Inv).
+
+  • Lista de Materiais/Kitting (TDA-BoM).
+
+  • Ordem de Compra (TDA-PO).
+
+  • Ordem de Venda (TDA-SO).
+
+  • Gestão de Armazém (TDA-WM).
+
+  • Planejamento de Requisitos (TDA-RP).
+
+- O Software ERP (TERP):
+
+  • Portais Web (site de Ecommerce) (TERP-Web).
+
+  • Gestão de Relacionamento com o Cliente (TERP-CRM).
+
+- O Sistema de Informações de Recursos Humanos (HRIS) :
+
+  • Gestão de Folha de Pagamento (exporta para Traverse para processamento de folha de pagamento) (Opt-PM).
+
+  • Recursos Humanos (Opt-HR).
+
+  • Tempo & Presença (exporta para Traverse para processamento de folha de pagamento) (Opt-Time).
+
+- NAS:
+
+  • Software de Backup e Recuperação (BARS).
+
+  • Software de Criptografia Enigmeh AES 256 para Controle de Acesso (Enig-AES).
 
 =======================================================
 
@@ -96,11 +115,7 @@ A SJSA não possui Wi-Fi, somente rede interna Ethernet.
 
 Atualmente, a SJSA não possui quaisquer políticas, planos ou equipe formal de segurança da informação.
 
-# =======================================================
-
-# =======================================================
-
-# =======================================================
+# =========================================
 
 # TRABALHO
 
@@ -126,6 +141,7 @@ Use o documento de organização do caso para preencher as Tabelas 1 e 2 com os 
 
   • Registros Estudantis: quaisquer dados retidos pela organização que contenham informações acadêmicas sobre um indivíduo (nomes com números de estudantes, cursos realizados, notas atribuídas, problemas de integridade acadêmica/má conduta, ajuda financeira e/ou outras PII.)
 
+..
 ![Tabela Exemplo](image-3.png)
 
 =======================================================
@@ -140,12 +156,18 @@ Use o documento de organização do caso para preencher as Tabelas 1 e 2 com os 
 
 3. Avalie cada ativo de informação em relação aos seus critérios, atribuindo um valor de 0 a 5 (sendo 5 o mais crítico) sob cada critério de ativo.
 
-- “Qual a importância deste ativo em relação a este critério?”
+- “Qual a importância deste ativo em relação a este critério?”:
+
   5 – Criticamente importante
+
   4 – Muito importante
+
   3 - Importante
+
   2 – Um pouco importante
+
   1 – Um pouco importante
+
   0 - Não é importante
 
 4. Faça os cálculos para determinar os totais.
@@ -154,10 +176,66 @@ Use o documento de organização do caso para preencher as Tabelas 1 e 2 com os 
 
 ![Exemplo Tabela 2](image-4.png)
 
-# =======================================================
+# =========================================
 
-# =======================================================
+# =========================================
 
 # PARTE 2 – AMEAÇAS AO INVENTÁRIO E PRIORIZAÇÃO DE ATIVOS DE INFORMAÇÃO
 
 Comece inserindo na primeira coluna da Tabela 3 ameaças aos ativos de informação da organização.
+
+=======================================================
+
+# TABELA 3 – RANKING PONDERADO DAS AMEAÇAS AOS ATIVOS DE INFORMAÇÃO
+
+- Preencha a Tabela 3 especificando quaisquer ameaças aos ativos de informação apropriadas ao caso.
+- A próxima classificação ordena as ameaças da mais perigosa para a menos perigosa com base em critérios selecionados.
+
+! Utilize a tabela ponderada p/ classificar as ameaças da mais perigosa para a menos !
+
+1. Identifique no mínimo 3 critérios que você usará para avaliar as ameaças e atribuir pesos aos critérios.
+
+2. Avalie cada ameaça de acordo com seus critérios, atribuindo um valor de 0 a 5 (sendo 5 o mais perigoso) em cada critério de ameaça. Utilize a seguinte escala nas suas tarefas, para responder à pergunta:
+
+- “Quão perigosa é esta ameaça no que diz respeito a este critério?”
+
+  5 – Criticamente perigoso
+
+  4 – Muito perigoso
+
+  3 – Perigoso
+
+  2 – Um tanto perigoso
+
+  1 – Um pouco perigoso
+
+  0 - Não é perigoso
+
+3. Faça os cálculos para determinar os totais. (cada célula é multiplicada pelo peso do seu critério, então todos os produtos são somados na coluna total).
+
+!!! Nota: os pesos dos critérios de amostra foram adicionados à tabela para ilustrar a função (por exemplo, Crit 1; 0,20). Substitua esses valores pelos seus próprios critérios e pesos. !!!
+
+4. Por fim, classifique a tabela inteira na coluna Total. Quando terminar, sua ameaça número um (primeira da lista) deverá ser aquela com o maior total e, portanto, a mais perigosa.
+
+..
+
+![Exemplo Tabela 3](image-5.png)
+
+# =========================================
+
+# PARTE 3 – CÁLCULO DO RISCO
+
+Comece copiando os cinco (5) principais ativos de informação da Tabela 2 e as cinco (5) principais ameaças da Tabela 3 (de acordo com os totais calculados) para a Tabela 4.
+
+Para cada célula (por exemplo, Ameaça 1 e Ativo 1), estime a probabilidade de um ataque
+desta ameaça a esse ativo, o impacto de um ataque bem-sucedido e, em seguida, combine os
+dois em uma classificação de risco, usando escalas dadas como exemplo nos slides 19 a 21
+da Aula8_GestaoDeRiscoDaInformacao.
+
+![Exemplo Tabela 4](image-6.png)
+
+![Exemplo 2 Tabela 4](image-7.png)
+
+# Deverão ser estimados, no mínimo, 25 cenários de risco, com a indicação do nível resultante de risco de acordo com a cor a ser colorida cada célula.
+
+# Para PELO MENOS 10 CENÁRIOS, o grupo de alunos deverá dar uma breve justificativa da estimativa para PROBABILIDADE.
