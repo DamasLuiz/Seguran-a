@@ -116,14 +116,15 @@ Use o documento de organização do caso para preencher as Tabelas 1 e 2 com os 
 
 - Tipos de dados confidenciais:
 
-  • Confidencial do Cliente: quaisquer dados retidos pela organização que tenham sido rotulados como confidenciais. Os exemplos incluem registros de reuniões executivas; planos de marketing e estratégicos ainda não divulgados; detalhes de comunicações e serviços fornecidos para organizações clientes selecionadas; e detalhes do programa de TI e InfoSec da empresa.
+  • Confidencial do Cliente: quaisquer dados retidos pela organização que tenham sido rotulados como confidenciais. (Registros de reuniões executivas; planos de marketing e estratégicos ainda não divulgados; detalhes de comunicações e serviços fornecidos para organizações clientes selecionadas; e detalhes do programa de TI e InfoSec da empresa.)
 
-  • Informações Eletrônicas de Saúde do Paciente: quaisquer dados retidos pela organização que contenham informações médicas pessoais, incluindo informações de funcionários e clientes.
+  • Informações Eletrônicas de Saúde do Paciente: quaisquer dados retidos pela organização que contenham informações médicas pessoais, incluindo informações de funcionários e clientes. (número da conta, médico de cuidados primários, etc. A maioria dos registros de RH conteria apenas o nome da cobertura, mas não os detalhes.)
 
-  • Informações de cartão de pagamento: quaisquer dados retidos pela organização que contenham informações de cartão de pagamento.
+  • Informações de cartão de pagamento: quaisquer dados retidos pela organização que contenham informações de cartão de pagamento. (números de cartão de débito/crédito com datas de vencimento, nomes de usuários, códigos de segurança e/ou informações de cobrança.)
 
-  • Informações de identificação pessoal
-  • Registros Estudantis
+  • Informações de identificação pessoal: quaisquer dados retidos pela organização que contenham informações de identificação pessoal que possam ser usadas para identificar um indivíduo (ou roubar sua identidade). (nomes, CPF, números de carteira de motorista, endereços, números de telefone, familiares.)
+
+  • Registros Estudantis: quaisquer dados retidos pela organização que contenham informações acadêmicas sobre um indivíduo (nomes com números de estudantes, cursos realizados, notas atribuídas, problemas de integridade acadêmica/má conduta, ajuda financeira e/ou outras PII.)
 
 ![Tabela Exemplo](image-3.png)
 
